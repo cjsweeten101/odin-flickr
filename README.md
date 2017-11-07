@@ -1,24 +1,7 @@
-# README
+# Flickr Feed
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple app to dislplay the photo feed of a chosen flickr user.
 
-Things you may want to cover:
+Part of the Odin project rails tutorials.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Found [here](https://www.theodinproject.com/lessons/apis)
