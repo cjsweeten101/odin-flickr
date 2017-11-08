@@ -1,0 +1,11 @@
+<%= form_for("search", method: :get) do |f| %>
+	User Id: <%= f.text_field :id %><p>
+	<%= f.submit "Submit" %>
+<% end %>
+
+<% unless @photo_urls.nil? %>
+	Found Photos:<p>
+	<% @photo_urls.each do |photo| %>
+		<%= image_tag(photo) %><p>
+	<% end %>
+<% end %>
